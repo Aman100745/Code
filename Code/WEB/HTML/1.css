@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+.movies {
+    padding: 20px;
+}
+.movie-slider {
+    display: flex;
+    overflow-x: auto;
+}
+.movie img {
+    width: 150px;
+    margin-right: 10px;
+}
